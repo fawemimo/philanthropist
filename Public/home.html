@@ -1,0 +1,647 @@
+{% load static %}
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Philantropist</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Corporate Html5 Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Rappo HTML Template v1.0">
+  {% include "partials/_styles.html" %}
+
+</head>
+<body id="top-header">
+
+<!-- LOADER TEMPLATE -->
+<div id="page-loader">
+  <div class="loader-icon fa fa-spin colored-border"></div>
+</div>
+<!-- /LOADER TEMPLATE -->
+
+
+
+<!-- NAVBAR
+    =======================
+    ================================================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
+      <div class="container">
+        <a class="navbar-brand" href="index-3.html">
+          <h3>Philanthropist</h3>
+        </a>
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-bars"></span>
+        </button>
+    
+              <!-- Collapse -->
+              <div class="collapse navbar-collapse has-dropdown" id="navbarCollapse">
+                <!-- Links -->
+                <div class="collapse navbar-collapse has-dropdown" id="navbarCollapse">
+                  <!-- Links -->
+                  <ul class="navbar-nav ">
+                    <li class="nav-item dropdown">
+                      <a href="!" class="navbar-link">
+                      
+          
+                      </a>
+          
+                      
+          
+                    </li>
+                    <li class="nav-item ">
+                      <a href="index.html" class="nav-link js-scroll-trigger">
+                        Home
+                      </a>
+                    </li>
+        
+        
+                  <li class="nav-item ">
+                    <a href="about.html" class="nav-link">
+                      About
+                    </a>
+                  </li>
+                  <li class="nav-item ">
+                    <a href="contact.html" class="nav-link">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+        
+                
+              </div> <!-- / .navbar-collapse -->
+            </nav>
+          </div> <!-- / .container -->
+        </div>
+    
+    
+        </div> <!-- / .navbar-collapse -->
+      </div> <!-- / .container -->
+    </nav>
+
+
+
+
+    <!-- HERO
+    ================================================== -->
+    <section class="banner-area py-5" id="banner">
+       <div class="overlay"></div>
+        <!-- Content -->
+        <div class="container">
+            <div class="row  align-items-center justify-content-center">
+                <div class="col-md-12 col-lg-8">
+                   <div class="banner-content text-center text-lg-left">
+                        <!-- Heading -->
+                        <h1 class="display-4 mb-4 ">
+                            History of The <br> Greatest Philanthropist <br> in Nigeria
+                        </h1>
+
+                        <!-- Subheading -->
+                        <p class="lead mb-5">
+                            
+                        </p>
+
+                        <!-- Button -->
+                        <p class="mb-0">
+                            <a href="#!" target="_blank" class="btn btn-primary btn-circled">
+                                Explore
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 ">
+                    <div class="banner-contact-form bg-white">
+                        <form action="{% url 'home' %}" method="post" >
+                          {% csrf_token %}
+                          
+                            <div class="form-group">
+                                {{form.name}}
+                            </div>
+                            <div class="form-group">
+                                {{ form.email}}
+                            </div>
+                            <div class="form-group">
+                                {{ form.subject }}
+                            </div>
+                            <div class="form-group">
+                                {{ form.message }}
+                            </div>
+                            <button type="submit" class="btn btn-dark btn-block btn-circled">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
+
+
+
+
+ <section id="work-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-heading">
+                            <h1>The Greatest Philanthropist and Their History</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="lead"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="work" class="section-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 p-0">
+                        <div class="work-block">
+                            <img src="{% static 'images/work/1.jpeg' %}" alt="work-img" class="img-fluid">
+                            <div class="overlay-content-block">
+                                <h4>Ademola Aladekomo</h4>
+                                <p>31 December 1957</p>
+                                <a href="{% url 'ademola'  %}"><i class="fa fa-link"></i></a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0">
+                        <div class="work-block">
+                            <img src="{% static 'images/work/2.jpeg' %}" alt="work-img" class="img-fluid">
+                            <div class="overlay-content-block">
+                                <h4>Aliko Dangote </h4>
+                                <p>10 April 1957</p>
+                                <a href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0">
+                        <div class="work-block">
+                            <img src="{% static 'images/work/3.jpeg' %}" alt="work-img" class="img-fluid">
+                            <div class="overlay-content-block">
+                                <h4>Jimoh Ibrahim</h4>
+                                <p>24 febuary 1967</p>
+                                <a href="{% url 'jimoh' %}"><i class="fa fa-link"></i></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                 
+                    <div class="col-lg-3 col-md-6 p-0">
+                        <div class="work-block">
+                            <img src="images/work/11.jpg" alt="work-img" class="img-fluid">
+                            <div class="overlay-content-block">
+                                <h4>  Most Rev.d (Dr) Oliver Ali Aba</h4>
+                                <p>27 May 1960 </p>
+                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 p-0">
+                      <div class="work-block">
+                          <img src="images/work/5.jpeg" alt="work-img" class="img-fluid">
+                          <div class="overlay-content-block">
+                              <h4>Femi Otedola</h4>
+                              <p>1 November 1962</p>
+                              <a href=""><i class="fa fa-link"></i></a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 p-0">
+                    <div class="work-block">
+                        <img src="images/work/6.jpeg" alt="work-img" class="img-fluid">
+                        <div class="overlay-content-block">
+                            <h4>Folorunsho Alakija</h4>
+                            <p>16 July 1951</p>
+                            <a href="folorunsho.html"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 p-0">
+                  <div class="work-block">
+                      <img src="images/work/7.jpeg" alt="work-img" class="img-fluid">
+                      <div class="overlay-content-block">
+                          <h4>Abubakar Sulieman</h4>
+                          <p>19 August 1973</p>
+                          <a href=""><i class="fa fa-link"></i></a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 p-0">
+                <div class="work-block">
+                    <img src="images/work/8.jpeg" alt="work-img" class="img-fluid">
+                    <div class="overlay-content-block">
+                        <h4>Anthony Onyemaechi Elumelu</h4>
+                        <p>22 March 1963</p>
+                        <a href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-lg-3 col-md-6 p-0">
+                        <div class="work-block">
+                            <img src="images/work/9.jpeg" alt="work-img" class="img-fluid">
+                            <div class="overlay-content-block">
+                                <h4>Jim Ovia</h4>
+                                <p>4 November 1961</p>
+                                <a href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 p-0">
+                        <div class="work-block">
+                            <img src="images/work/10.jpeg" alt="work-img" class="img-fluid">
+                            <div class="overlay-content-block">
+                                <h4>Aigboje Aig- Imoukhuede</h4>
+                                <p>21 September 1966</p>
+                                <a href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-lg-3 col-md-6 p-0">
+                            <div class="work-block">
+                                <img src="images/work/12.jpeg" alt="work-img" class="img-fluid">
+                                <div class="overlay-content-block">
+                                    <h4>Most Rev.d (Dr) Samuel Emeka Kanu Uche</h4>
+                                    <p>29 january 1963</p>
+                                    <a href="kanu.html"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6 p-0">
+                  <div class="work-block">
+                      <img src="images/work/13.jpeg" alt="work-img" class="img-fluid">
+                      <div class="overlay-content-block">
+                          <h4> Rt. Rev (Prof) Samuel Obeka</h4>
+                          <p></p>
+                          <a href=""><i class="fa fa-link"></i></a>
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+
+        </div>
+        </section>
+
+<section class="section" id="section-testimonial">
+        <div class="container">
+           <div class="row align-items-center">
+                <div class="col-lg-4 col-sm-12 col-md-12">
+                    <div class="section-heading testimonial-heading">
+                        <h1>What they say <br>about us</h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="test-inner ">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Olukorede F.</h4>
+                                       <h6>Wragby solution and technology</h6>
+                                   </div>
+                               </div>
+
+                               Philanthropists dot com is a remarkable system that covers the impacts of true visionaries, whose unwavering commitment to making the world a better place has touched the lives of countless individuals.
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="test-inner ">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Omobuwa Bunmi</h4>
+                                       <h6>Bio-chemistry</h6>
+                                   </div>
+                               </div>
+
+                                Philanthropist are God sent and they are like Gods to the poor to futher in the future races....... Thanks for all you do Rt (Rev) Samuel Obeka for been a Gods and a father to us in Wesley University.
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <div class="row">
+                        <div class="col-lg-6">
+                            <div class="test-inner ">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="images/client/test-3.jpg" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Afolabi Abiodun</h4>
+                                       <h6>Shofot Group</h6>
+                                   </div>
+                               </div>
+
+                               I commend the dream of the founder of the “philanthropists dot com". I believe that ungratefulness or thanklessness is disheartening and demoralizing. Steps to discourage all forms of unappreciative attitudes from our global society are inspiring and every human being needs to embrace such ideology.
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="test-inner ">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="images/client/test-4.jpg" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Azonwonu Patricia</h4>
+                                       <h6>Computer science</h6>
+                                   </div>
+                               </div>
+
+                               Everything began in the year 2019 when I received approval to enroll at Wesley University on a scholarship provided by Sir Ademola Aladekomo Data Foundation.
+                               I can say that as a philanthropist, I am a major beneficiary of his generous heart for humanity, especially the younger generations. I never thought I would graduate from university, but to God be the glory, I have.
+                               
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <div class="row">
+                        <div class="col-lg-6">
+                            <div class="test-inner">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="{% static 'images/client/test-5.jpg' %}" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Mudi Ododo</h4>
+                                       <h6>NUD</h6>
+                                   </div>
+                               </div>
+
+                               Philanthropists play invaluable roles in the reduction of poverty around the world by contributing their resources, expertise and influence advocacy with the aim at tackling the above complex issues. They fund poverty alleviation schemes, supporting economic development
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="test-inner">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="images/client/test-6.jpg" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Olaniawo Grace</h4>
+                                       <h6>Micro-Biologist</h6>
+                                   </div>
+                               </div>
+
+                               I am one of the beneficiaries of the Education Finance Solution (STUDIEZ). The STUDIEZ scholarship was founded and continuously funded by the chairman of the Chams HoldCo Plc, Sir Aladekomo Ademola.  I pray that almighty God will continue to bless and safeguard him in all facets of human endeavour for his humanitarian efforts. 
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <section class="section" id="blog">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6 text-center">
+                    <div class="section-heading">
+                        <!-- Heading -->
+                        <h2 class="section-title">
+                            Read our latest news
+                        </h2>
+
+                        <!-- Subheading -->
+                        <p>
+                            Stay connected with our lastest update on schorlarships opportunity of Nigeria Philanthropist
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- / .row -->
+
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-box">
+                        <div class="blog-img-box">
+                            <img src="images/blog/blog-1.png" alt="" class="img-fluid blog-img">
+                        </div>
+                        <div class="single-blog">
+                            <div class="blog-content">
+                                <h6> 17 January 2022</h6>
+                                <a href="#"></a>
+                                    <h3 class="card-title">Scholarship: Apply for Tony Elumelu Foundation (TEF) 2022/2023 </h3>
+                                </a>
+                                <p>The Tony Elumelu Foundation (TEF), the leading philanthropy empowering young African entrepreneurs across all 54 African countries,</p>
+                                <a href="https://www.tonyelumelufoundation.org/press-releases/apply-now-for-5000-in-the-2022-tony-elumelu-foundation-entrepreneurship-programme" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-box">
+                        <div class="blog-img-box">
+                            <img src="images/blog/dangote.jpg" alt="" class="img-fluid blog-img">
+                        </div>
+                        <div class="single-blog">
+                            <div class="blog-content">
+                                <h6> 17 December 2022</h6>
+                                <a href="#"></a>
+                                    <h3 class="card-title">Dangote Foundation Scholarship 2023/2024 | Dangote Scholarship Eligibility & How To Apply</h3>
+                                </a>
+
+                                <p>he brain behind Dangote foundation scholarship is Aliko Dangote. Likewise, he is Africa’s richest man.</p>
+                                 <a href="https://o3schools.com/dangote-foundation-scholarship-eligibility-apply" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-8">
+                    <div class="blog-box">
+                        <div class="blog-img-box">
+                            <img src="images/blog/studiez.jpg" alt="" class="img-fluid blog-img">
+                        </div>
+                        <div class="single-blog">
+                            <div class="blog-content">
+                                <h6> 20 November 2022</h6>
+                                <a href="#!">
+                                    <h3 class="card-title">Apply for Education loans and scholarship 2022/2023</h3>
+                                </a>
+                                <p>We provide education financial assistance in the form of short to long term loans, schorlarships and donations</p>
+                                 <a href="https://www.studiez.com.ng/" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <footer class="section " id="footer">
+   <div class="overlay footer-overlay"></div>
+   <!--Content -->
+   <div class="container">
+     <div class="row justify-content-start">
+       <div class="col-lg-4 col-sm-12">
+         <div class="footer-widget">
+           <!-- Brand -->
+           <a href="index.html" class="footer-brand text-white">
+             Philanthropist
+           </a>
+           <p>It's important to note that philanthropy is not solely about monetary donations. Many philanthropists also engage in strategic philanthropy, where they use their expertise and networks to drive social change and address root causes of issues. This can involve advocacy, policy work, capacity building, and collaboration with other stakeholders.</p>
+         </div>
+       </div>
+
+       <div class="col-lg-3 ml-lg-auto col-sm-12">
+         <div class="footer-widget">
+           <h3>Account</h3>
+           <!-- Links -->
+           <ul class="footer-links ">
+             <li>
+               <a href="#!">
+                 Terms and conditions
+               </a>
+             </li>
+             <li>
+               <a href="#!">
+                 Privacy policy
+               </a>
+             </li>
+             <li>
+               <a href="#!">
+                 Affiliate services
+               </a>
+             </li>
+             <li>
+               <a href="#!">
+                 Help and support
+               </a>
+             </li>
+             <li>
+               <a href="#!">
+                 Frequently Asked Question
+               </a>
+             </li>
+           </ul>
+         </div>
+       </div>
+
+
+       <div class="col-lg-2 col-sm-6">
+         <div class="footer-widget">
+           <h3>About</h3>
+           <!-- Links -->
+           <ul class="footer-links">
+            <li>
+              <a href="about.html">
+                About Us
+              </a>
+            </li>
+             <li>
+               <a href="service.html">
+                 Services
+               </a>
+             </li>
+             <li>
+               <a href="pricing.html">
+                 Pricing
+               </a>
+             </li>
+             <li>
+               <a href="project.html">
+                Recent Projects
+               </a>
+             </li>
+
+             <li>
+               <a href="contact.html">
+                 Contact
+               </a>
+             </li>
+           </ul>
+         </div>
+       </div>
+
+       <div class="col-lg-2 col-sm-6">
+         <div class="footer-widget">
+           <h3>Socials</h3>
+           <!-- Links -->
+           <ul class="list-unstyled footer-links">
+             <li><a href="https://web.facebook.com/shekinahglory.goldies?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+             <li>
+               <a href="https://twitter.com/GoldAyomiposi?t=7DwJDMUoqtDf6A_82wSGsA&s=09"><i class="fab fa-twitter"></i>Twitter
+               </a></li>
+               </a></li>
+             <li><a href="https://www.linkedin.com/in/aladeokomo-wuraola-olamide-4430a2276/"><i class="fab fa-linkedin"></i>linkedin
+               </a></li>
+             <li><a href=""><i class="fab fa-youtube"></i>YouTube
+               </a></li>
+           </ul>
+         </div>
+       </div>
+     </div> <!-- / .row -->
+
+
+     <div class="row text-right pt-5">
+       <div class="col-lg-12">
+         <div class="overflow-hidden">
+           <!-- Copyright -->
+          <p class="footer-copy">
+            Copyright &copy; <script>var CurrentYear = new Date().getFullYear()
+            document.write(CurrentYear)
+          </script>. Designed &amp; Developed by Aladeokomo wuraola<a class="current-year" href=Philantrophist</a>
+          </p>
+         </div>
+       </div>
+     </div> <!-- / .row -->
+   </div> <!-- / .container -->
+ </footer>
+
+
+ <!--  Page Scroll to Top  -->
+
+ <a id="scroll-to-top" class="scroll-to-top js-scroll-trigger" href="#top-header">
+   <i class="fa fa-angle-up"></i>
+ </a>
+
+  <!-- 
+  Essential Scripts
+  =====================================-->
+  <!-- jQuery -->
+  <script src=" {% static 'plugins/jquery/jquery.min.js' %}"></script>
+  <!-- Bootstrap -->
+  <script src=" {% static 'plugins/bootstrap/bootstrap.min.js' %}"></script>
+  <!-- Slick Slider -->
+  <script src=" {% static 'plugins/slick-carousel/slick/slick.min.js' %}"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
+  <script src="plugins/google-map/gmap.js"></script>
+
+  <script src="{% static 'js/script.js' %}"></script> 
+
+</body>
+</html>
+   

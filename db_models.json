@@ -1,0 +1,227 @@
+[
+{
+    "model": "pages.testimony",
+    "pk": 1,
+    "fields": {
+        "name": "Olukorede F.",
+        "position": "Wragby solution and technology",
+        "display_pic": "testimony/displayPics/WhatsApp_Image_2023-03-19_at_8.25.46_AM.jpeg",
+        "description": "<div>\r\n<div>Philanthropists dot com is a remarkable system that covers the impacts of true visionaries, whose unwavering commitment to making the world a better place has touched the lives of countless individuals.</div>\r\n</div>"
+    }
+},
+{
+    "model": "pages.testimony",
+    "pk": 2,
+    "fields": {
+        "name": "Omobuwa Bunmi",
+        "position": "Bio-chemistry",
+        "display_pic": "testimony/displayPics/WhatsApp_Image_2023-03-19_at_8.25.46_AM_Tg1PG3j.jpeg",
+        "description": "<div>\r\n<div>Philanthropist are God sent and they are like Gods to the poor to futher in the future races....... Thanks for all you do Rt (Rev) Samuel Obeka for been a Gods and a father to us in Wesley University.</div>\r\n</div>"
+    }
+},
+{
+    "model": "pages.testimony",
+    "pk": 3,
+    "fields": {
+        "name": "Afolabi Abiodun",
+        "position": "Shofot Group",
+        "display_pic": "testimony/displayPics/WhatsApp_Image_2023-03-19_at_8.25.46_AM_0zUcg1H.jpeg",
+        "description": "<div>\r\n<div>I commend the dream of the founder of the &ldquo;philanthropists dot com\". I believe that ungratefulness or thanklessness is disheartening and demoralizing. Steps to discourage all forms of unappreciative attitudes from our global society are inspiring and every human being needs to embrace such ideology.</div>\r\n</div>"
+    }
+},
+{
+    "model": "pages.testimony",
+    "pk": 4,
+    "fields": {
+        "name": "Azonwonu Patricia",
+        "position": "Computer science",
+        "display_pic": "testimony/displayPics/WhatsApp_Image_2023-03-19_at_8.25.46_AM_1YpHOZl.jpeg",
+        "description": "<div>\r\n<div>Everything began in the year 2019 when I received approval to enroll at Wesley University on a scholarship provided by Sir Ademola Aladekomo Data Foundation.</div>\r\n<div>I can say that as a philanthropist, I am a major beneficiary of his generous heart for humanity, especially the younger generations. I never thought I would graduate from university, but to God be the glory, I have.</div>\r\n</div>"
+    }
+},
+{
+    "model": "pages.testimony",
+    "pk": 5,
+    "fields": {
+        "name": "Mudi Ododo",
+        "position": "NUD",
+        "display_pic": "testimony/displayPics/WhatsApp_Image_2023-03-19_at_8.25.46_AM_KlW1wzB.jpeg",
+        "description": "<div>\r\n<div>Philanthropists play invaluable roles in the reduction of poverty around the world by contributing their resources, expertise and influence advocacy with the aim at tackling the above complex issues. They fund poverty alleviation schemes, supporting economic development</div>\r\n</div>"
+    }
+},
+{
+    "model": "pages.testimony",
+    "pk": 6,
+    "fields": {
+        "name": "Olaniawo Grace",
+        "position": "Micro-Biologist",
+        "display_pic": "testimony/displayPics/WhatsApp_Image_2023-03-19_at_8.25.46_AM_bLmQFaw.jpeg",
+        "description": "<div>\r\n<div>I am one of the beneficiaries of the Education Finance Solution (STUDIEZ). The STUDIEZ scholarship was founded and continuously funded by the chairman of the Chams HoldCo Plc, Sir Aladekomo Ademola. I pray that almighty God will continue to bless and safeguard him in all facets of human endeavour for his humanitarian efforts.</div>\r\n</div>"
+    }
+},
+{
+    "model": "pages.readournew",
+    "pk": 1,
+    "fields": {
+        "title": "Scholarship: Apply for Tony Elumelu Foundation (TEF) 2022/2023",
+        "news_display_pic": "",
+        "description": "<div>\r\n<div>The Tony Elumelu Foundation (TEF), the leading philanthropy empowering young African entrepreneurs across all 54 African countries,</div>\r\n</div>",
+        "anchor_link": "https://www.tonyelumelufoundation.org/press-releases/apply-now-for-5000-in-the-2022-tony-elumelu-foundation-entrepreneurship-programme",
+        "date_created": "2023-07-14"
+    }
+},
+{
+    "model": "pages.readournew",
+    "pk": 2,
+    "fields": {
+        "title": "Dangote Foundation Scholarship 2023/2024 | Dangote Scholarship Eligibility & How To Apply",
+        "news_display_pic": "",
+        "description": "<div>\r\n<div>he brain behind Dangote foundation scholarship is Aliko Dangote. Likewise, he is Africa&rsquo;s richest man.</div>\r\n</div>",
+        "anchor_link": "https://o3schools.com/dangote-foundation-scholarship-eligibility-apply",
+        "date_created": "2023-07-14"
+    }
+},
+{
+    "model": "pages.readournew",
+    "pk": 3,
+    "fields": {
+        "title": "Apply for Education loans and scholarship 2022/2023",
+        "news_display_pic": "",
+        "description": "<div>\r\n<div>We provide education financial assistance in the form of short to long term loans, schorlarships and donations</div>\r\n</div>",
+        "anchor_link": "https://www.studiez.com.ng/",
+        "date_created": "2023-07-14"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 1,
+    "fields": {
+        "name": "Aliko Dangote",
+        "display_pics": "philanthropist/displayPics/2.jpeg",
+        "prep_profile_descriptions": "ssc",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<p>dvdv</p>",
+        "others_right_side_profile": "<p>vdvdvv</p>"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 2,
+    "fields": {
+        "name": "Ademola Aladekomo",
+        "display_pics": "philanthropist/displayPics/1.jpeg",
+        "prep_profile_descriptions": "Ademola started CHAMS in 1985 as the first indigenous computer maintenance company in Nigeria",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<div>\r\n<h3><strong>Ademola Aladekomo Awards</strong></h3>\r\n<div>1. Ademola is a Fellow of the Nigeria Computer Society (FNCS).&lt;br&gt;</div>\r\n<div>2. He is also a Fello of the Computer Professional Registration Council (CPN).&lt;br&gt;</div>\r\n<div>3. He is a member of the Nigerian Society of Engineers (NSE).</div>\r\n</div>\r\n<div>&nbsp;</div>\r\n<div>\r\n<h3><strong>EDUCATION AND QUALIFICATIONS</strong></h3>\r\n<div>Sir Aladekomo graduated from the University of Ife (now Obafemi Awolowo University) in 1982 with a degree in Computer Engineering, followed by an Master of Business Administration from the University of Lagos in 1984.</div>\r\n<br />\r\n<div>Chams Plc is also the parent company of ChamsSwitch Limited, and ChamsConsortium Limited, and has substantial interest in ChamsMobile.</div>\r\n<div>&nbsp;</div>\r\n<div>He later founded DATA Foundation which has repeatedly awarded scholarships to students in public schools, while Volunteer Corps continues to bring alive his vision of using professionals as volunteers teachers to train students in order to prepare them for university and polytechnic education. Other non-profits Council Member, Osun State University.</div>\r\n<div>&nbsp;</div>\r\n<div>&nbsp;</div>\r\n</div>",
+        "others_right_side_profile": "<h3><strong>Sir Aladekomo served in the following capacities</strong></h3>\r\n<div>1. Council Member, Osun State University</div>\r\n<div>2. Board Member, Osun State University Advancement Board</div>\r\n<div>3. Board Member, Obafemi Awolowo University (OAUTECHEXCEL), the foundation implementing a knowledge park at the university</div>\r\n<div>4. Patron, Lagos City Chorale Group</div>\r\n<div>5. Member, Nigerian Economic Summit Group (NESG) from inception/Vision 2010 and Vision 2020</div>\r\n<h3>&nbsp;</h3>\r\n<h3><strong>Sir Aladekomo is the founder and past chairman of the Board of Trustees</strong></h3>\r\n<div>&nbsp;</div>\r\n<div>1. Volunteer Corps, chairman, DATA Foundation; a non-governmental organization committed to professional volunteerism for public school education.</div>\r\n<div>2. He established Volunteer Corps in 1992 out of the need to offer educational opportunities to less privileged members of society.&nbsp;</div>\r\n<div>3. He later founded DATA Foundation which has repeatedly awarded scholarships to students in public schools.</div>"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 3,
+    "fields": {
+        "name": "Most Rev.d (Dr) Oliver Ali Aba",
+        "display_pics": "philanthropist/displayPics/11.jpg",
+        "prep_profile_descriptions": "Oliver Ali Aba was born on 27th May, 1960 to the family of Late Mr. /Mrs. Audu Aba, both of Ogbadibo Olachagbaha in Ogbadibo Local Government Area of Benue State.",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<h3><strong>ACHIEVEMENTS</strong></h3>\r\n<div>Archbishop Oliver has always left legacy and memories of his great impact were ever he served. The following are among his numerous achievements in Ministry:</div>\r\n<div>-Building of a standard bishop&rsquo;s manse at the Diocese of Apa.</div>\r\n<div>-Bringing electricity to the bishop quarters at the Diocese of Enone</div>\r\n<div>-Building of a standard bishop&rsquo;s court at the Diocese of Enone</div>\r\n<div>-Fencing of the entire Bishop court at the Diocese of Enone</div>\r\n<div>-Construction of accessible road network through the partnership of PW construction company at the Diocese of Enone</div>\r\n<div>-Building of a duplex to house the Archbishopat Otukpo, Benue Archdiocese.</div>\r\n<div>-Flooring of the entire Archbishop's court in Otukpo with cement blocks.</div>\r\n<div>-Building of the a standard Prelate&rsquo;s guest house within six weeks at the Archbishop's quarters in Benue</div>\r\n<div>-Building of a standard chapel at the Archbishop's court in Benue</div>\r\n<div>-Fencing of the entire Archbishop's quarters at Jesus College, Otukpo among others.</div>\r\n<h3>&nbsp;</h3>\r\n<div>\r\n<h3><strong>SPIRITUAL ACTIVITIES</strong></h3>\r\n<div>Archbishop Oliver is committed to the spiritual development of the Church. He introduced monthly cooperate fasting and praying for the Archdiocese on every first Saturday of the Month in addition to other missions and evangelistic programs in the Archdiocese.</div>\r\n<div>&nbsp;</div>\r\n<div>\r\n<h3><strong>EDUCATION AND QUALIFICATION</strong></h3>\r\n<div>Oliver Ali Aba attended L.G.E.A Primary School, Okpefie in Okpokwu LGA, Benue State between 1970 - 1977 (FSLC)</div>\r\n<div>He proceeded to Lagos Secondary Commercial Academy, Obaniko, Lukpeju, Lagos State between 1977 - 1980, Government College, Otukpa, Benue State from 1980 - 1982 where he obtain his S.S.C.E.</div>\r\n<div>&nbsp;</div>\r\n<div>In his quest and passion to serve God, Oliver proceeded to St. Augustine Major Seminary, Jos between 1983 - 1986 where he got training in Philosophy, then Immanuel College of Theology, Ibadan 1987 - 1990 where obtained Diploma in Theology. He further went to the prestigious University of Ibadan between 1990 - 1992 where he bagged B.A. in Christian Religion Studies.</div>\r\n<div>He further went back to University of Ibadan between 1997 - 1998 to obtain M.A in Church History.</div>\r\n<div>&nbsp;</div>\r\n<div>\r\n<h3><strong>WORK EXPERIENCES</strong></h3>\r\n<div>Between 1992 - 1993 Oliver Aba did his compulsory NYSC in Government Collage, Kubwa, Abuja.</div>\r\n<br />\r\n<div>He was posted to Methodist Church Nigeria, Kubwa between 1993 - 1994 to serve as Priest</div>\r\n<div>Between 1994 - 1995, Rev. Oliver served as the then Prelate Chaplain. He was returned back serve as Priest in Methodist Church Nigeria, Nyaya Group of Churches between 1994 - 1995 .</div>\r\n<div>&nbsp;</div>\r\n<div>In 1995 Rev. Oliver was posted to Methodist Theological Institute, Sagamu to serve as Lecturer. The post he served until 1998 when he was further transferred to head</div>\r\n<div>Hassan Odukale Methodist Theological Institute, Zonkwa in 1998 as the Rector.</div>\r\n<div>&nbsp;</div>\r\n<div>In 2002 Very Rev. Oliver was Elected Bishop and was translated to Methodist Church Nigeria, Apa Diocese as the Pioneer Diocesan Bishop.</div>\r\n<div>In 2007 Rt. Rev'd Oliver was translated to Methodist Church Nigeria, Enone Diocese as Diocesan Bishop.</div>\r\n<div>In 2013 he was elected an Archbishop Methodist Church Nigeria, Archdiocese of Benue. The position he held until his emergence as Prelate Elect during the just concluded Conference of the Methodist Church Nigeria, Hosted by BENUE Archdiocese but held in Abuja between 9th -14th August, 2022.</div>\r\n<div>&nbsp;</div>\r\n</div>\r\n</div>\r\n</div>",
+        "others_right_side_profile": "<div>\r\n<h3><strong>Post Of Responsibilities Held</strong></h3>\r\n<div>&lt;p&gt;Archbishop Oliver is Chairman of Methodist Board of Theological College from 2012 - Till date &ndash; He is also a Member of Benue Pilgrimage Board, Makurdi, Benue State..&lt;/p&gt;</div>\r\n</div>"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 4,
+    "fields": {
+        "name": "Femi Otedola",
+        "display_pics": "philanthropist/displayPics/5.jpeg",
+        "prep_profile_descriptions": "dvdvdv",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<p>cvdv</p>",
+        "others_right_side_profile": "<p>vdvdvdvd</p>"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 5,
+    "fields": {
+        "name": "Folorunsho Alakija",
+        "display_pics": "philanthropist/displayPics/6.jpeg",
+        "prep_profile_descriptions": "Alakija studied fashion design at The American College in London and the Central School of Fashion.",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<div>\r\n<h3><strong>Early Career</strong></h3>\r\n<div>&nbsp;</div>\r\n<div>Folorunsho Alakija (born 15 July 1951) is a Nigerian billionaire businesswoman and philanthropist. She is involved in the fashion, oil, real estate and printing industries. She is the Group Managing Director of The Rose of Sharon Group which consists of The Rose of Sharon Prints &amp; Promotions Limited, Digital Reality Prints Limited and the executive vice-chairman of Famfa Oil Limited.</div>\r\n<div>Alakija also has a majority stake in DaySpring Property Development Company. Folorunsho Alakija was ranked by Forbes as the richest woman in Nigeria with an estimated net worth of $1 billion in 2020. As of 2015, Alakija was listed as the second most powerful woman in Africa after Ngozi Okonjo-Iweala and the 87th most powerful woman in the world by Forbes.</div>\r\n<br />\r\n<div>\r\n<div>\r\n<h3><strong>Personal Life</strong></h3>\r\n<div>Alakija married lawyer Modupe Alakija of the Adeyemo Alakija family, in November 1976. They reside in Lagos, Nigeria, with their four sons and their grandchildren. Her nephew is DJ Xclusive. In June 2017, Folorunso's son, Folarin Alakija, married Iranian model Nazanin Jafarian Ghaissarifar in a $6.4 million wedding at Blenheim Palace in England.</div>\r\n<div>Folorunso Alakija Philanthrophist, Alakija established the Rose of Sharon Foundation that helps widows and orphans through scholarships and business grants.[24] Alakija has donated a skills acquisition center to Yaba College of Technology (Yabatech), a higher educational institution located&nbsp;in&nbsp;Lagos.</div>\r\n<div>&nbsp;</div>\r\n<div>\r\n<div>\r\n<h3><strong>EDUCATION AND QUALIFICATIONS</strong></h3>\r\n<div>Alakija was born on 15 July 1951 to an upper-middle-class family; her father was Chief L. A. Ogbara of Ikorodu, Lagos State. Her father married 8 wives and had 52 children and Folorunso's mother was the first. Alakija attended her nursery education at Our Ladies of Apostles, Lagos from 1955 to 1958. At the age seven, Alakija travelled to the United Kingdom to continue her primary education at Dinorben School for Girls in Hafodunos Hall in Llangernyw, Wales between 1959 and 1963. On the completion of her primary education, Alakija attended Muslim High School in Sagamu, Ogun State, Nigeria. She then returned to England for her secretarial studies at Pitman's Central College, London.</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+        "others_right_side_profile": "<h3><strong>Carrer</strong></h3>\r\n<div>&nbsp;</div>\r\n<div>Alakija started her 12 year banking career in 1974 as an executive secretary at Sijuade Enterprises, Lagos, Nigeria shortly after completing a Secretarial Course at Pitman's Central College London. She moved to the former First National Bank of Chicago, which later became FinBank now acquired by FCMB (First City Monument Bank)[13] as the Executive Secretary to the managing director. She became the new Head of the Corporate Affairs Department of the International Merchant Bank of Nigeria (formerly First National Bank of Chicago), and later on became the Office Assistant to the Treasury Department.[citation needed]</div>\r\n<div>Alakija then studied fashion design at The American College in London and the Central School of Fashion. She started a fashion label known as Supreme Stitches, which was later renamed The Rose Of Sharon House of Fashion in 1996. She was the president and lifelong trustee of the Fashion Designers Association of Nigeria (FADAN).</div>\r\n<div>In May 1993, Alakija applied for the allocation of an oil prospecting license (OPL). The license to explore for oil on a 617,000-acre block&mdash;now referred to as OPL 216&mdash;was granted to Alakija's company, Famfa Limited. The block is approximately 350 kilometres (220 miles) southeast of Lagos and 110 kilometres (70 miles) offshore of Nigeria in the Agbami Field of the central Niger Delta. In September 1996, Alakija entered into a joint venture agreement with Star Deep Water Petroleum Limited (a wholly owned subsidiary of Texaco) transferring a 40 percent stake to Star Deep.</div>\r\n<div>After they struck oil, the Nigerian government claimed a 40% stake, followed by an additional 10%. The government's argument was if Alakija and family were allowed to keep their bloc, they stood to make $10 million a day. Alakija disputed this claim and won.</div>\r\n<div>As of 2014, Alakija is listed as the 96th most powerful woman in the world by Forbes. In May 2015, two Nigerian women, Finance Minister Ngozi okonjo-Iweala and Alakija were listed among the world's 100 most powerful women according to Forbes. She was 86th on the list.</div>\r\n<div>Alakija is #20 in 2020 Africa's Billionaires list Dropped off in 2021, #1941 Billionaires 2019 Dropped off in 2020 and #80 Power Women 2016 Dropped off in 2017.</div>\r\n<div>On 17 July 2021, Benson Idahosa University, Benin City gave her an honorary Doctorate Degree in Business Administration. This was in recognition of her contribution to the business world.</div>\r\n<p><br /><br /></p>"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 6,
+    "fields": {
+        "name": "Abubakar Sulieman",
+        "display_pics": "philanthropist/displayPics/7.jpeg",
+        "prep_profile_descriptions": "dvdvd",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<p>dvdv</p>",
+        "others_right_side_profile": "<p>vdvdv</p>"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 7,
+    "fields": {
+        "name": "Anthony Onyemaechi Elumelu",
+        "display_pics": "philanthropist/displayPics/8.jpeg",
+        "prep_profile_descriptions": "dvdv",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<p>dcc</p>",
+        "others_right_side_profile": "<p>vdvdv</p>"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 8,
+    "fields": {
+        "name": "Jim Ovia",
+        "display_pics": "philanthropist/displayPics/9.jpeg",
+        "prep_profile_descriptions": "vdvdv",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<p>vdvdvdvdv</p>",
+        "others_right_side_profile": "<p>cdvdvdv</p>"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 9,
+    "fields": {
+        "name": "Aigboje Aig- Imoukhuede",
+        "display_pics": "philanthropist/displayPics/10.jpeg",
+        "prep_profile_descriptions": "sccsc",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<p>cdcdcdc</p>",
+        "others_right_side_profile": "<p>vvdvdvd</p>"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 10,
+    "fields": {
+        "name": "Most Rev.d (Dr) Samuel Emeka Kanu Uche",
+        "display_pics": "philanthropist/displayPics/12.jpeg",
+        "prep_profile_descriptions": "The former Prelate of the Methodist Church Nigeria.",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<div>\r\n<h3><strong>Early Career</strong></h3>\r\n<div>Dr. Samuel Emeka Kanu Uche (born 29/01/1953) is the former Prelate of the Methodist Church Nigeria.</div>\r\n<div>He served the Church as Ministerial Cadet (1975/1976). He was accepted into the Ministry of the Church in 1976, commissioned a Deacon in 1979, ordained a Priest in 1982, appointed a Presbyter in 1990, elected a Bishop at 1998 Conference held in Ode Aye in the Diocese of Igbobini in August 1998. He was consecrated Bishop at the Methodist Church of the Trinity, Tinubu, Lagos on 21st November, 1998. He was enthroned Bishop of Owerri on 14th February, 1999, elected Archbishop of Enugu on August 15, 2009, invested at the Methodist Church of the Trinity, Tinubu, Lagos in November 2009 and was enthroned as Archbishop of Enugu on 31st January, 2010.</div>\r\n<div>After a keenly contested electoral college for the election of the Prelate of Methodist Church on September 1, 2013, he won nine other shortlisted Episcopates to emerge winner and was subsequently invested with the paraphrenia of office on 6th October, 2013 being the first Igbo Leader of the premier Church in Nigeria after 171 years of its existence. To God be the glory.</div>\r\n<div>&nbsp;</div>\r\n<div>\r\n<div>\r\n<h3><strong>Personal Life</strong></h3>\r\n<div>His Eminence, Dr. Samuel &lsquo;Emeka Kanu Uche is happily married to a lover of God and Leader of Methodist women, Nneoma Florence Nnenna Uche, a supportive wife and a retired Senior Administrative staff of Yaba College of Technology, Yaba, Lagos. She is currently the coordinator of the South Eastern Zone of Christian Council of Nigeria Women&rsquo;s Wing. The marriage is blessed with loving children and grandchildren.</div>\r\n<div>&nbsp;</div>\r\n<div>\r\n<div>\r\n<h3><strong>EDUCATION AND QUALIFICATIONS</strong></h3>\r\n<div>His Eminence, Dr. Samuel &lsquo;Emeka Kanu Uche was born to Evangelist Thompson Kanu and Nneoma Janet Ebere Uche of Amagu Autonomous Community, Ihube, Okigwe on 29th January, 1953 at General Hospital, Okigwe in Imo State, Nigeria.</div>\r\n<div>He attended Local Authority School (LA) Eziama Nneato (1959), Nneato Central School, Ebelebe (Methodist) (1960), Amuda Isuochi Group School (1961 &ndash; 1962) and Isuochi Central School, Nkwoagu (Methodist) (1963 &ndash; 1965). He further attended Boy&rsquo;s High School, Ihube, Okigwe former Methodist Boy&rsquo;s Secondary School (1970 &ndash; 1974</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+        "others_right_side_profile": "<p>dvdv</p>"
+    }
+},
+{
+    "model": "pages.philanthropist",
+    "pk": 11,
+    "fields": {
+        "name": "Rt. Rev (Prof) Samuel Obeka",
+        "display_pics": "philanthropist/displayPics/13.jpeg",
+        "prep_profile_descriptions": "vdvd",
+        "date_of_birth": "2023-07-14",
+        "profile_descriptions": "<p>cdcdc</p>",
+        "others_right_side_profile": "<p>vdvdv</p>"
+    }
+}
+]

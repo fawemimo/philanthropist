@@ -1,0 +1,431 @@
+{% load static %}
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Philantropist</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Corporate Html5 Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Rappo HTML Template v1.0">
+  {% include "partials/_styles.html" %}
+
+</head>
+
+<body id="top-header">
+
+  <!-- LOADER TEMPLATE -->
+  <div id="page-loader">
+    <div class="loader-icon fa fa-spin colored-border"></div>
+  </div>
+  <!-- /LOADER TEMPLATE -->
+
+
+
+  <!-- NAVBAR
+    =======================
+    ================================================= -->
+    {% include "partials/_navbar.html" %}
+
+
+
+  <!-- HERO
+    ================================================== -->
+  <section class="banner-area py-5" id="banner">
+    <div class="overlay"></div>
+    <!-- Content -->
+    <div class="container">
+      <div class="row  align-items-center justify-content-center">
+        <div class="col-md-12 col-lg-8">
+          <div class="banner-content text-center text-lg-left">
+            <!-- Heading -->
+            <h1 class="display-4 mb-4 ">
+              History of The <br> Greatest Philanthropist <br> in Nigeria
+            </h1>
+
+            <!-- Subheading -->
+            <p class="lead mb-5">
+
+            </p>
+
+            <!-- Button -->
+            <p class="mb-0">
+              <a href="#!" target="_blank" class="btn btn-primary btn-circled">
+                Explore
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 ">
+          <div class="banner-contact-form bg-white">
+            <form  method="POST">
+              {% csrf_token %}
+
+              <div class="form-group">
+                {{form.name}}
+              </div>
+              <div class="form-group">
+                {{ form.email}}
+              </div>
+              <div class="form-group">
+                {{ form.phone }}
+              </div>
+              <div class="form-group">
+                {{ form.subject }}
+              </div>
+              <div class="form-group">
+                {{ form.message }}
+              </div>
+              <button type="submit" class="btn btn-dark btn-block btn-circled">Send</button>
+            </form>
+          </div>
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </section>
+
+
+
+
+  <section id="work-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h1>The Greatest Philanthropist and Their History</h1>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <p class="lead"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section-bottom">
+    <div class="container">
+      <div class="row">
+        {% for philanthropist in philanthropists %}
+        <div class="col-lg-4 col-md-6 p-0">
+          <div class="work-block">
+            <img src="{{ philanthropist.display_pics.url}}" alt="work-img" class="img-fluid">
+            <div class="overlay-content-block">
+              <h4>{{philanthropist.name }}</h4>
+              <p>{{philanthropist.date_of_birth}}</p>
+              <a href="{% url 'philanthropist_detail' philanthropist.id  %}"><i class="fa fa-link"></i></a>
+            </div>
+          </div>
+          
+        </div>
+
+        {% endfor %}
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="section-testimonial">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-sm-12 col-md-12">
+          <div class="section-heading testimonial-heading">
+            <h1 id="what">What they say <br>about us</h1>
+            <p></p>
+          </div>
+        </div>
+        <div class="col-lg-8 col-sm-12 col-md-12">
+          <div class="row">
+            {% for testimony in testimonies %}
+
+            <div class="col-lg-6">
+              <div class="test-inner ">
+                <div class="test-author-thumb d-flex">
+                  <img src="{{testimony.display_pic.url}}" alt="{{testimony.name}}" class="img-fluid">
+                  <div class="test-author-info">
+                    <h4>{{testimony.name}}</h4>
+                    <h6>{{testimony.position}}</h6>
+                  </div>
+                </div>
+
+                {{testimony.description | safe }}
+                <i class="fa fa-quote-right"></i>
+              </div>
+            </div>
+
+
+            {% endfor %}
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="blog">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6 text-center">
+          <div class="section-heading">
+            <!-- Heading -->
+            <h2 class="section-title">
+              Read our latest news
+            </h2>
+
+            <!-- Subheading -->
+            <p>
+              Stay connected with our lastest update on schorlarships opportunity of Nigeria Philanthropist
+            </p>
+          </div>
+        </div>
+      </div> <!-- / .row -->
+
+      <div class="row justify-content-center">
+        {% for readournew in readournews %}
+          
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-box">
+            <div class="blog-img-box">
+              
+                
+              
+              <img src="{% if readournew.news_display_pic %} {{ readournew.news_display_pic.url }} {% endif %}" alt="{{ readournew.title }}" class="img-fluid blog-img">
+            </div>
+            <div class="single-blog">
+              <div class="blog-content">
+                <h6> {{readournew.date_created}}</h6>
+                <a href="#"></a>
+                <h3 class="card-title">{{ readournew.title}} </h3>
+                </a>
+                <p>{{readournew.description | safe }}</p>
+                <a href="{{readournew.anchor_link}}"
+                  class="read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-box">
+            <div class="blog-img-box">
+              <img src="images/blog/dangote.jpg" alt="" class="img-fluid blog-img">
+            </div>
+            <div class="single-blog">
+              <div class="blog-content">
+                <h6> 17 December 2022</h6>
+                <a href="#"></a>
+                <h3 class="card-title">Dangote Foundation Scholarship 2023/2024 | Dangote Scholarship Eligibility & How
+                  To Apply</h3>
+                </a>
+
+                <p>he brain behind Dangote foundation scholarship is Aliko Dangote. Likewise, he is Africa’s richest
+                  man.</p>
+                <a href="https://o3schools.com/dangote-foundation-scholarship-eligibility-apply" class="read-more">Read
+                  More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-8">
+          <div class="blog-box">
+            <div class="blog-img-box">
+              <img src="images/blog/studiez.jpg" alt="" class="img-fluid blog-img">
+            </div>
+            <div class="single-blog">
+              <div class="blog-content">
+                <h6> 20 November 2022</h6>
+                <a href="#!">
+                  <h3 class="card-title">Apply for Education loans and scholarship 2022/2023</h3>
+                </a>
+                <p>We provide education financial assistance in the form of short to long term loans, schorlarships and
+                  donations</p>
+                <a href="https://www.studiez.com.ng/" class="read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section " id="footer">
+    <div class="overlay footer-overlay"></div>
+    <!--Content -->
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-lg-4 col-sm-12">
+          <div class="footer-widget">
+            <!-- Brand -->
+            <a href="index.html" class="footer-brand text-white">
+              Philanthropist
+            </a>
+            <p>It's important to note that philanthropy is not solely about monetary donations. Many philanthropists
+              also engage in strategic philanthropy, where they use their expertise and networks to drive social change
+              and address root causes of issues. This can involve advocacy, policy work, capacity building, and
+              collaboration with other stakeholders.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 ml-lg-auto col-sm-12">
+          <div class="footer-widget">
+            <h3>Account</h3>
+            <!-- Links -->
+            <ul class="footer-links ">
+              <li>
+                <a href="#!">
+                  Terms and conditions
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  Privacy policy
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  Affiliate services
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  Help and support
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  Frequently Asked Question
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="col-lg-2 col-sm-6">
+          <div class="footer-widget">
+            <h3>About</h3>
+            <!-- Links -->
+            <ul class="footer-links">
+              <li>
+                <a href="about.html">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="service.html">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="pricing.html">
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a href="project.html">
+                  Recent Projects
+                </a>
+              </li>
+
+              <li>
+                <a href="contact.html">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-sm-6">
+          <div class="footer-widget">
+            <h3>Socials</h3>
+            <!-- Links -->
+            <ul class="list-unstyled footer-links">
+              <li><a href="https://web.facebook.com/shekinahglory.goldies?_rdc=1&_rdr"><i
+                    class="fab fa-facebook-f"></i>Facebook</a></li>
+              <li>
+                <a href="https://twitter.com/GoldAyomiposi?t=7DwJDMUoqtDf6A_82wSGsA&s=09"><i
+                    class="fab fa-twitter"></i>Twitter
+                </a>
+              </li>
+              </a></li>
+              <li><a href="https://www.linkedin.com/in/aladeokomo-wuraola-olamide-4430a2276/"><i
+                    class="fab fa-linkedin"></i>linkedin
+                </a></li>
+              <li><a href=""><i class="fab fa-youtube"></i>YouTube
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </div> <!-- / .row -->
+
+
+      <div class="row text-right pt-5">
+        <div class="col-lg-12">
+          <div class="overflow-hidden">
+            <!-- Copyright -->
+            <p class="footer-copy">
+              Copyright &copy;
+              <script>var CurrentYear = new Date().getFullYear()
+                document.write(CurrentYear)
+              </script>. Designed &amp; Developed by Aladeokomo wuraola<a class="current-year" href=Philantrophist</a>
+            </p>
+          </div>
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </footer>
+
+
+  <!--  Page Scroll to Top  -->
+
+  <a id="scroll-to-top" class="scroll-to-top js-scroll-trigger" href="#top-header">
+    <i class="fa fa-angle-up"></i>
+  </a>
+
+  <!-- 
+  Essential Scripts
+  =====================================-->
+  <!-- jQuery -->
+  <script src=" {% static 'plugins/jquery/jquery.min.js' %}"></script>
+  <!-- Bootstrap -->
+  <script src=" {% static 'plugins/bootstrap/bootstrap.min.js' %}"></script>
+  <!-- Slick Slider -->
+  <script src=" {% static 'plugins/slick-carousel/slick/slick.min.js' %}"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
+  <script src="plugins/google-map/gmap.js"></script>
+
+  <script src="{% static 'js/script.js' %}"></script>
+
+</body>
+
+</html>
